@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const a = window.prompt("Lange der 'a' Kante?")
+        const b = window.prompt("Lange der 'b' Kante?")
+
+        function hypotenuse(a, b) {
+            return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
+        }
+
+
+
+        window.alert("Das Ergebnis = " + hypotenuse(a, b))
+    </script>
+</body>
+
+</html>

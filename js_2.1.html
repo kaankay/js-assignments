@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>jc_ersteAufgabe</title>
+</head>
+
+<body>
+    <h1>Aufgabe 2.1: Fakult&auml;t </h1>
+    <script type="text/javascript">
+        var zahl = Number(window.prompt("Geben Sie bitte eine natuerliche Zahl ein: ", ""));
+
+        function fakultaet(zahl) {
+            let result = 1;
+            for (var i = 1; i <= zahl; i++) {
+                result = result * i;
+            }
+            return result;
+        }
+
+        document.write(fakultaet(zahl));
+    </script>
+
+
+</body>
+
+</html>
